@@ -1,4 +1,4 @@
-# lua tutorial
+# Lua tutorial
 
 ## Hello World
 
