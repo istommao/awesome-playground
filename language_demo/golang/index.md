@@ -1,5 +1,9 @@
 # Golang tutorial
 
+- [Website](https://github.com/golang/playground)
+- [Github](https://github.com/golang/go)
+- [Playground](https://play.golang.org/)
+
 ## Hello World
 
 ```golang

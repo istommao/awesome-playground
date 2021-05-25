@@ -1,5 +1,9 @@
 # TypeScript tutorial
 
+- [Website](https://www.typescriptlang.org/)
+- [Github](https://github.com/microsoft/TypeScript)
+- [Playground](https://www.typescriptlang.org/play)
+
 ## Hello World
 
 ```typescript

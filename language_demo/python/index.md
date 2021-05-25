@@ -1,5 +1,8 @@
 # Python tutorial
 
+- [Website](https://www.python.org/)
+- [Github](https://github.com/python/cpython)
+- [Playground](https://www.python.org/shell/)
 ## Hello World
 
 ```python

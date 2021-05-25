@@ -2,14 +2,35 @@
 awesome playground
 
 ## playground list
+### Python
 
-- [Python (official)](https://www.python.org/shell/)
-- [TypeScript (official)](https://www.typescriptlang.org/play)
-- [Lua  (official)](https://www.lua.org/demo.html)
+- [Website](https://www.python.org/)
+- [Github](https://github.com/python/cpython)
+- [Playground](https://www.python.org/shell/)
 
-- [Rust (official)](https://play.rust-lang.org/)
+### Lua
+
+- [Lua (official)](https://www.lua.org/demo.html)
+
+### TypeScript
+
+- [Website](https://www.typescriptlang.org/)
+- [Github](https://github.com/microsoft/TypeScript)
+- [Playground](https://www.typescriptlang.org/play)
+
+### Rust
+
+- [Website](https://www.rust-lang.org/)
+- [Github](https://github.com/rust-lang/rust)
+- [Rust Playground (official)](https://play.rust-lang.org/)
 - [Rust (integer32llc)](https://github.com/integer32llc/rust-playground)
-- [Golang (official)](https://github.com/golang/playground)
+
+### Golang
+
+- [Website](https://golang.org/)
+- [Github](https://github.com/golang/go)
+- [Playground](https://play.golang.org/)
+- [Playground Github](https://github.com/golang/playground)
 
 ## language demo
 
