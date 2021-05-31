@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+   <div id="htmlpreview">
+       <div class="boxItem"><div id="InputData"></div></div>
+       <div class="boxItem">
+            <textarea placeholder="" id="PreviewBox"></textarea>
+       </div>
+   </div>
+</div>
+    <script src="fengari-web.js" type="text/javascript"></script>
+    <script>
+var PreviewBox = document.getElementById('PreviewBox');
+var InputData = document.getElementById('InputData');
+
+(function() {
+
+    function runLuaCode(rawcode) {
+        fengari.load(rawcode)()
+    }
+
+    var old = console.log;
+    console.log = function (message) {
+        if (typeof message == 'object') {
+            PreviewBox.value += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '\n';
+        } else {
+            PreviewBox.value += message + '\n';
+        }
+    }
+
+    InputData.focus();
+    PreviewBox.onkeyup = delay(function(event) {
+        const rawcode = PreviewBox.value;
+        if (rawcode) {
+            runLuaCode(rawcode);
+        }
+    }, 1200);
+})();
+
+function delay(callback, ms) {
+  var timer = 0;
+  return function() {
+    var context = this, args = arguments;
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      callback.apply(context, args);
+    }, ms || 0);
+  };
+}
+
+    </script>
+</body>
+</html>
