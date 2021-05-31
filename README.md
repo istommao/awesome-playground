@@ -2,6 +2,7 @@
 awesome playground
 
 ## playground list
+
 ### Python
 
 - [Website](https://www.python.org/)
@@ -10,6 +11,8 @@ awesome playground
 
 ### Lua
 
+- [Website)](https://www.lua.org)
+- [Github](https://github.com/lua/lua)
 - [Lua (official)](https://www.lua.org/demo.html)
 
 ### TypeScript
@@ -23,7 +26,7 @@ awesome playground
 - [Website](https://www.rust-lang.org/)
 - [Github](https://github.com/rust-lang/rust)
 - [Rust Playground (official)](https://play.rust-lang.org/)
-- [Rust (integer32llc)](https://github.com/integer32llc/rust-playground)
+- [Rust Playground (integer32llc)](https://github.com/integer32llc/rust-playground)
 
 ### Golang
 
